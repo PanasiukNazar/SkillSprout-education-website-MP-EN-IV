@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>SkillSprout</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+
+        <!-- Libraries Stylesheet -->
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar start -->
+        <div class="container-fluid fixed-top px-0">
+            <div class="container px-0">
+                <nav class="navbar navbar-light bg-light navbar-expand-xl">
+                    <a href="index.html" class="navbar-brand ms-3">
+                        <h1 class="text-primary display-5">SkillSprout</h1>
+                    </a>
+                    <button
+                        class="navbar-toggler py-2 px-3 me-3"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                    >
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse bg-light"
+                        id="navbarCollapse"
+                    >
+                        <div class="navbar-nav ms-auto">
+                            <a href="index.html" class="nav-item nav-link"
+                                >Home</a
+                            >
+                            <a
+                                href="about.html"
+                                class="nav-item nav-link active"
+                                >About Us</a
+                            >
+                            <a href="service.html" class="nav-item nav-link"
+                                >Service</a
+                            >
+                            <a
+                                href="testimonials.html"
+                                class="nav-item nav-link"
+                                >Testimonials</a
+                            >
+                            <a href="contact.html" class="nav-item nav-link"
+                                >Contact</a
+                            >
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px">
+                <h3 class="text-white display-3 mb-4">About Us</h3>
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="breadcrumb-item active text-white">About Us</li>
+                </ol>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- About Start -->
+        <div class="container-fluid about py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-5">
+                        <div class="h-100">
+                            <img
+                                src="img/about-1.jpg"
+                                class="img-fluid w-100 h-100"
+                                alt="Image"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-xl-7">
+                        <h5 class="text-uppercase text-primary">About Us</h5>
+                        <h1 class="mb-4">Your Trusted Partner in Education</h1>
+                        <p class="fs-5 mb-4">
+                            We are a leading educational platform committed to
+                            providing accurate, up-to-date, and thoroughly
+                            verified information. Our goal is to become your
+                            primary source for educational resources, offering
+                            not only the latest insights but also in-depth
+                            analyses and commentary on important topics. Our
+                            editorial team consists of experts who work every
+                            day to provide you with quality educational content
+                            that you can rely on.
+                        </p>
+                        <div class="tab-class bg-secondary p-4">
+                            <ul class="nav d-flex mb-2">
+                                <li class="nav-item mb-3">
+                                    <a
+                                        class="d-flex py-2 text-center bg-white active"
+                                        data-bs-toggle="pill"
+                                        href="#tab-1"
+                                    >
+                                        <span
+                                            class="text-dark"
+                                            style="width: 150px"
+                                            >About Us</span
+                                        >
+                                    </a>
+                                </li>
+                                <li class="nav-item mb-3">
+                                    <a
+                                        class="d-flex py-2 mx-3 text-center bg-white"
+                                        data-bs-toggle="pill"
+                                        href="#tab-2"
+                                    >
+                                        <span
+                                            class="text-dark"
+                                            style="width: 150px"
+                                            >Our Mission</span
+                                        >
+                                    </a>
+                                </li>
+                                <li class="nav-item mb-3">
+                                    <a
+                                        class="d-flex py-2 text-center bg-white"
+                                        data-bs-toggle="pill"
+                                        href="#tab-3"
+                                    >
+                                        <span
+                                            class="text-dark"
+                                            style="width: 150px"
+                                            >Our Vision</span
+                                        >
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div
+                                    id="tab-1"
+                                    class="tab-pane fade show p-0 active"
+                                >
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex">
+                                                <div class="text-start my-auto">
+                                                    <p class="mb-4">
+                                                        We are an innovative
+                                                        educational platform
+                                                        that focuses on
+                                                        providing objective and
+                                                        current information
+                                                        across various fields of
+                                                        study. Our team of
+                                                        educators and
+                                                        researchers strives to
+                                                        deliver content that is
+                                                        not only relevant but
+                                                        also thoroughly
+                                                        verified. Our aim is to
+                                                        be a trusted source of
+                                                        information and
+                                                        contribute to the
+                                                        public's awareness and
+                                                        understanding of
+                                                        educational topics.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab-2" class="tab-pane fade show p-0">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex">
+                                                <div class="text-start my-auto">
+                                                    <p class="mb-4">
+                                                        Our mission is to
+                                                        provide our readers with
+                                                        accurate, timely, and
+                                                        high-quality educational
+                                                        content that helps them
+                                                        better understand the
+                                                        world around them. We
+                                                        aim not only to inform
+                                                        but also to educate and
+                                                        inspire our audience
+                                                        through thorough
+                                                        research and objective
+                                                        reporting. We believe
+                                                        that quality educational
+                                                        content is the
+                                                        foundation of a healthy
+                                                        society.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab-3" class="tab-pane fade show p-0">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex">
+                                                <div class="text-start my-auto">
+                                                    <p class="mb-4">
+                                                        Our vision is to become
+                                                        a leading educational
+                                                        platform that symbolizes
+                                                        trust and quality in the
+                                                        field of education. We
+                                                        want to be known for our
+                                                        innovative approaches to
+                                                        education, excellent
+                                                        coverage of current
+                                                        trends, and our ability
+                                                        to adapt to the changing
+                                                        needs of our learners.
+                                                        Our goal is to continue
+                                                        growing and developing
+                                                        so we can keep
+                                                        delivering valuable and
+                                                        relevant information.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Volunteers Start -->
+        <div class="container-fluid volunteer py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-5">
+                        <div class="row g-4">
+                            <div class="col-lg-6">
+                                <div class="volunteer-img">
+                                    <img
+                                        src="img/volunteers-1.jpg"
+                                        class="img-fluid w-100"
+                                        alt="Image"
+                                    />
+                                    <div class="volunteer-title">
+                                        <h5 class="mb-2 text-white">
+                                            Anna Smith
+                                        </h5>
+                                        <p class="mb-0 text-white">
+                                            Economic Educator
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="volunteer-img">
+                                    <img
+                                        src="img/volunteers-3.jpg"
+                                        class="img-fluid w-100"
+                                        alt="Image"
+                                    />
+                                    <div class="volunteer-title">
+                                        <h5 class="mb-2 text-white">
+                                            Martin Johnson
+                                        </h5>
+                                        <p class="mb-0 text-white">
+                                            Educational Editor
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="volunteer-img">
+                                    <img
+                                        src="img/volunteers-2.jpg"
+                                        class="img-fluid w-100"
+                                        alt="Image"
+                                    />
+                                    <div class="volunteer-title">
+                                        <h5 class="mb-2 text-white">
+                                            Eliza Williams
+                                        </h5>
+                                        <p class="mb-0 text-white">
+                                            Culture and Society Specialist
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="volunteer-img">
+                                    <img
+                                        src="img/volunteers-4.jpg"
+                                        class="img-fluid w-100"
+                                        alt="Image"
+                                    />
+                                    <div class="volunteer-title">
+                                        <h5 class="mb-2 text-white">
+                                            Thomas Brown
+                                        </h5>
+                                        <p class="mb-0 text-white">
+                                            Technology Educator
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <h5 class="text-uppercase text-primary">
+                            Our Team: Experts Behind Your Education
+                        </h5>
+                        <h1 class="mb-4">Meet the Team: SkillSprout Experts</h1>
+                        <p class="mb-4">
+                            Our team consists of talented and experienced
+                            professionals committed to providing quality and
+                            reliable educational content. Each member of our
+                            team brings a unique perspective and expertise,
+                            enabling us to cover a wide range of topics and
+                            provide you with current and accurate information.
+                            Our goal is to deliver educational resources you can
+                            trust, thanks to the effort and dedication of our
+                            highly qualified team.
+                        </p>
+                        <p class="text-dark">
+                            <i class="fa fa-check text-primary me-2"></i>
+                            Expertise and Experience
+                        </p>
+                        <p class="text-dark">
+                            <i class="fa fa-check text-primary me-2"></i>
+                            Multidisciplinary Approach
+                        </p>
+                        <p class="text-dark">
+                            <i class="fa fa-check text-primary me-2"></i>
+                            Innovative Methods
+                        </p>
+                        <p class="text-dark">
+                            <i class="fa fa-check text-primary me-2"></i>
+                            Continuous Learning
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Volunteers End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer bg-dark text-body py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="mb-4 text-white">SkillSprout</h4>
+                            <p class="mb-4">
+                                At the end of each visit to our site, we are
+                                happy to share key information and resources
+                                that may be helpful to you. At the bottom of our
+                                pages, you will find an overview of our
+                                contacts, links to important sections, and legal
+                                information.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Quick Links</h4>
+                            <a href="index.html"
+                                ><i class="fas fa-angle-right me-2"></i> Home</a
+                            >
+                            <a href="about.html"
+                                ><i class="fas fa-angle-right me-2"></i> About
+                                Us</a
+                            >
+                            <a href="contact.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Contact</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i> Terms
+                                of Use</a
+                            >
+                            <a href="privacy-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i> Privacy
+                                Policy</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Address</h4>
+                            <a href=""
+                                ><i class="fas fa-angle-right me-2"></i> Leyds
+                                St South, Groenkloof, Pretoria, 0181, South
+                                Africa</a
+                            >
+                            <a href=""
+                                ><i class="fas fa-angle-right me-2"></i>
+                                +27124228000</a
+                            >
+                            <a href=""
+                                ><i class="fas fa-angle-right me-2"></i>
+                                skill_sprout@gmail.com</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="mb-4 text-white">Newsletter</h4>
+                            <p class="mb-4">
+                                Stay informed with the latest updates and
+                                insights in education! Subscribe to our
+                                newsletter and receive regular updates directly
+                                to your email inbox.
+                            </p>
+                            <div class="position-relative mx-auto">
+                                <input
+                                    class="form-control border-0 bg-secondary w-100 py-3 ps-4 pe-5"
+                                    type="text"
+                                    placeholder="Email"
+                                    id="email"
+                                />
+                                <button
+                                    type="button"
+                                    class="btn-hover-bg btn btn-primary position-absolute top-0 end-0 py-2 mt-2 me-2"
+                                    id="submit"
+                                    onclick="sendForm()"
+                                >
+                                    Subscribe
+                                </button>
+                            </div>
+                            <div
+                                id="result"
+                                style="color: red; font-size: 12px"
+                            ></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie Consent</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    This website uses cookies to provide a better and more
+                    relevant experience while browsing.
+                    <a href="#">Learn more...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">I Agree</button>
+                <button class="cookie-button" id="declineBtn">Decline</button>
+            </div>
+        </div>
+
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+        <script src="js/contact-form.js"></script>
+    </body>
+</html>
